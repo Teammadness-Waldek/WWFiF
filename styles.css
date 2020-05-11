@@ -1,0 +1,94 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+.top-navbar{
+    width: 100%;
+    height: 40px;
+    background-color: #F8F8F8;
+    border-style: 1px solid #000000;
+}
+
+.slider{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(185, 36, 36, 0.829);
+    border-style: 1px solid #000000;
+}
+
+.mid-navbar{
+    width: 100%;
+    height: 40px;
+    background-color: #F8F8F8;
+    border-style: 1px solid #000000;
+    margin: 0px;
+}
+
+.news{
+    height: 400px;
+    width: 75%;
+    background-color: green;
+    border-style: 1px solid #000000;
+    float: left;
+}
+
+.social{
+    position: absolute;
+    Right: 1px;
+    height: 400px;
+    width: 25%;
+    background-color: blue;
+    border-style: 1px solid #000000;
+    float: right;
+}
+
+.footer{
+    position: absolute;
+    top: 580px;
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-style: 1px solid #000000;
+}
+
+.contact{
+    position: absolute;
+    top: 580px;
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+    border-style: 1px solid  #000000;
+}
+
+ul{
+    background-color: #F8F8F8;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    border-left: 1px solid #e7e7e7;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    color: #333333;
+
+}
+
+li a:hover{
+    background-color:#3D4849;
+    color: white;
+}
+
+li a:link{
+    text-decoration: none;
+
+}
