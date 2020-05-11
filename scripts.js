@@ -1,13 +1,14 @@
+//Slider
 var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
-    showDivs(slideIndex += n)
+    showDivs(slideIndex += n);
 }
 
 function showDivs(n) {
     var i;
-    var x = document.getElementsByClassNameByClassName("slide");
+    var x = document.getElementsByClassName("mySlides");
     if (n > x.length) {slideIndex = 1}
     if (n < 1) {slideIndex = x.length};
     for (i = 0; i < x.length; i++) {
@@ -16,3 +17,8 @@ function showDivs(n) {
     x[slideIndex-1].style.display = "block";
 
 }
+
+//opyrigh current year
+
+var today = new Date();
+var yr = today.getFullYear();

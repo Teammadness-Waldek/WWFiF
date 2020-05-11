@@ -1,9 +1,15 @@
 
+strong{
+    float: left;
+    text-align: center;
+    margin: 8px;
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
 }
-.top-navbar{
+.navbar{
     width: 100%;
     height: 40px;
     background-color: #F8F8F8;
@@ -12,18 +18,11 @@ body{
 
 .slider{
     width: 100%;
-    height: 100px;
-    background-color: rgba(185, 36, 36, 0.829);
+    height: 500px;
+    background-color:white;
     border-style: 1px solid #000000;
 }
 
-.mid-navbar{
-    width: 100%;
-    height: 40px;
-    background-color: #F8F8F8;
-    border-style: 1px solid #000000;
-    margin: 0px;
-}
 
 .news{
     height: 400px;
@@ -34,18 +33,17 @@ body{
 }
 
 .social{
-    position: absolute;
+    display: inline-block;
     Right: 1px;
     height: 400px;
     width: 25%;
     background-color: blue;
     border-style: 1px solid #000000;
-    float: right;
 }
 
 .footer{
     position: absolute;
-    top: 580px;
+    top: 980px;
     height: 250px;
     width: 100%;
     background-color: pink;
@@ -54,7 +52,7 @@ body{
 
 .contact{
     position: absolute;
-    top: 580px;
+    top: 980px;
     height: 100px;
     width: 100%;
     background-color: orange;
