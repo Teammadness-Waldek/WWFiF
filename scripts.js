@@ -18,7 +18,4 @@ function showDivs(n) {
 
 }
 
-//opyrigh current year
 
-var today = new Date();
-var yr = today.getFullYear();

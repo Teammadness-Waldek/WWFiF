@@ -16,11 +16,16 @@ body{
     border-style: 1px solid #000000;
 }
 
+strong{
+    padding: 5px;
+}
+
 .slider{
-    width: 1000px;
-    height: 350px;
+    width: 100%;
+    /* height: 350px; */
     background-color:white;
     border-style: 1px solid #000000;
+    margin-top: 10px;
 }
 
 
@@ -30,8 +35,12 @@ body{
     background-color: white;
     border-style: 1px solid #000000;
     float: left;
+    
 }
 
+.news h2 {
+    padding: 10px;
+}
 .social{
     display: inline-block;
     Right: 1px;
@@ -44,26 +53,27 @@ body{
 
 .footer{
     position: absolute;
-    top: 890px;
+    top: 940px;
     height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color:white;
     border-style: 1px solid #000000;
     text-align: center;
-    color: white;
+    color: black;
+    float: right;
 }
 
 .contact{
     position: absolute;
     top: 800px;
-    height: 150px;
+    height: 170px;
     width: 100%;
     background-color: #3171B8;
     border-style: 1px solid  #000000;
     color: white;
     font-size: 12;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    padding: 10px;
 }
 
 ul{
@@ -104,5 +114,15 @@ img.youtube{
     width: 100px;
     height: auto;
     float: left;
+    border-width: 10px;
 
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev .next{
+    position: absolute;
+    top: 50%;
 }
